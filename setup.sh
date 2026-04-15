@@ -50,6 +50,14 @@ new_servers = {
             "PINECONE_API_KEY": "$API_KEY",
             "PINECONE_INDEX": "civpro-class-materials"
         }
+    },
+    "contracts-class-materials": {
+        "command": "$CURDIR/.venv/bin/python3",
+        "args": ["$CURDIR/pinecone_mcp_server.py"],
+        "env": {
+            "PINECONE_API_KEY": "$API_KEY",
+            "PINECONE_INDEX": "contracts-class-materials"
+        }
     }
 }
 
