@@ -1,0 +1,10 @@
+mcp
+pinecone-client
+sentence-transformers
+langchain-pinecone
+langchain-huggingface
+langchain-community
+langchain-text-splitters
+pypdf
+docx2txt
+python-pptx
